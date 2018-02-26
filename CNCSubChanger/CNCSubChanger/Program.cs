@@ -14,19 +14,32 @@ namespace CNCSubChanger
         [STAThread]
         static void Main(string[] args)
         {
-            if (args.Length > 0)
+            try
             {
-                XmlHandler xh = new XmlHandler();
-                FileHandler fh = new FileHandler(@args[0]);
-                CNCHandler ch = new CNCHandler(fh.Read());
-                fh.Write(ch.ChangeSub(xh.ReadXml(@"./Config.xml", "oldsub"), args[1], xh.ReadXml(@"./Config.xml", "subref")));
-                MessageBox.Show("Done");
+                string configfile = @".\Config1.txt";
+
+                if (args.Length >= 1)
+                {
+                    configfile = args[0];
+                }
+
+                if (Properties.Settings.Default.autoStart)
+                {
+                    ConfigurationHandler cfh = new ConfigurationHandler(new FileHandler(configfile));
+                    FileHandler fh = new FileHandler(cfh.ReturnConfig("path"));
+                    CNCHandler ch = new CNCHandler(fh.Read());
+                    fh.WriteCNC(ch.ChangeSub(cfh.ReturnConfig("oldhead"), cfh.ReturnConfig("newhead"), cfh.ReturnConfig("oldsub"), cfh.ReturnConfig("newsub"), cfh.ReturnConfig("subref"), cfh.ReturnConfig("subcall"), cfh.ReturnConfig("increment")));
+                }
+                else
+                {
+                    Application.EnableVisualStyles();
+                    Application.SetCompatibleTextRenderingDefault(false);
+                    Application.Run(new FormMain(configfile));
+                }
             }
-            else
+            catch (Exception)
             {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new FormMain());
+
             }
         }
     }

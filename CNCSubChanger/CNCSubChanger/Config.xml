@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<root>
-	<path>\\SERVER8\g$\Upload\TommyDeHoon\pcc2000\PCC_N2K5.PLT</path>
-	<cnc>
-		<subref>P</subref>
-		<oldsub>80</oldsub>
-		<newsub>1</newsub>
-	</cnc>
-</root>

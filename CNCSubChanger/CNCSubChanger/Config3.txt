@@ -1,0 +1,8 @@
+﻿path=\\SERVER8\g$\Upload\TommyDeHoon\pcc2000\PCC_N2K5.PLT
+subref=P
+oldhead=80
+newhead=1
+oldsub=80000
+newsub=1000
+subcall=P
+increment=1

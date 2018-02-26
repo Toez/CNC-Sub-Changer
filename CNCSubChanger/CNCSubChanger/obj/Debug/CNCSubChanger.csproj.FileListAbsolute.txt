@@ -8,6 +8,15 @@ c:\users\tommy\documents\visual studio 2013\Projects\CNCSubChanger\CNCSubChanger
 c:\users\tommy\documents\visual studio 2013\Projects\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.exe
 c:\users\tommy\documents\visual studio 2013\Projects\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.pdb
 c:\users\tommy\documents\visual studio 2013\Projects\CNCSubChanger\CNCSubChanger\bin\Debug\Config.xml
-C:\Users\tommy\OneDrive\Documenten\CNCSubChanger\CNCSubChanger\bin\Debug\CNCSubChanger.exe.config
-C:\Users\tommy\OneDrive\Documenten\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.exe
-C:\Users\tommy\OneDrive\Documenten\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.pdb
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\CNCSubChanger.exe.config
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.exe
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.pdb
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\CNCSubChanger.exe
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\CNCSubChanger.pdb
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.FormMain.resources
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.Properties.Resources.resources
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.csproj.GenerateResource.Cache
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\Config3.txt
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\Config2.txt
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\bin\Debug\Config1.txt
+C:\Users\Tommy\Desktop\CNCSubChanger\CNCSubChanger\obj\Debug\CNCSubChanger.csprojResolveAssemblyReference.cache
